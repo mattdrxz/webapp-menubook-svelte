@@ -4,6 +4,10 @@
 </script>
 
 <!--TODO: 1. Element Menu Price-->
+<div class="menu-price-row">
+    <span class="price-description">{label}</span>
+    <span></span>
+</div>
 
 <style>
 	div.menu-tile {
