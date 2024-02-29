@@ -1,7 +1,9 @@
 <script lang="ts">
+	/**TODO: 3. Import MenuPrice */
 	export let name: string;
 	export let description: string;
 	export let photoUrl: string;
+	export let prices: {label:string; price:number}[];
 </script>
 
 <div class="menu-tile">
@@ -12,8 +14,9 @@
 	<div class="menu-tile-description">
 		{description}
 	</div>
+	<!--TODO: 4. Use each to render MenuPrice 
+		https://learn.svelte.dev/tutorial/each-blocks -->
 
-    <!--TO DO : 1 Pake Each-->
 	<!-- <div class="menu-price-row">
       <span class="price-description"></span>
       <span>35</span>
